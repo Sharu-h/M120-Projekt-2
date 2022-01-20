@@ -1,0 +1,62 @@
+html{
+    background-color: #caff78;
+    font-family: Segoe UI;
+}
+
+.title{
+    text-align: left;
+    margin-top: 50px;
+    color: #0008FF;
+    font-weight: normal;
+    font-size: 2.5em;
+}
+
+.tabletitle  {
+  color: #5D5DFF;
+  width: 50em;
+  border:1px ;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.leftalign{
+    float:left;
+}
+  
+
+.clock{
+    width: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    background-color: #caff78;
+}
+
+.table  {
+  color: #5D5DFF;
+  width: auto;
+  border:1px ;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1em;
+  position:relative;
+  margin: 0 auto;
+}
+
+input{
+  display: block;
+  margin-bottom: 10px;
+}
+
+.p{
+  
+}
+
+input{
+    display: block;
+    margin: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    border-color: #707070;
+}
