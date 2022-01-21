@@ -3,11 +3,45 @@ html{
     font-family: Segoe UI;
 }
 
+.img{
+  margin-top: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+.h2{
+margin-left: auto;
+margin-right: auto;
+font-family: Baskerville Old Face;
+margin-bottom: 3px;
+font-size: 2.5em;
+color: #0008FF;
+font-weight: normal;
+}
+
+.h1{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  font-family: Britannic;
+  font-size: 2.5em;
+  color: #0008FF;
+}
+
+h3{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  font-size: 1.5em;
+  color: #0008FF;
+}
+
 .title{
     text-align: left;
     margin-top: 50px;
     color: #0008FF;
-    font-weight: normal;
+    font-weight: 700;
     font-size: 2.5em;
 }
 
@@ -22,7 +56,6 @@ html{
 .leftalign{
     float:left;
 }
-  
 
 .clock{
     width: 80px;
@@ -45,18 +78,44 @@ html{
 }
 
 input{
-  display: block;
-  margin-bottom: 10px;
-}
-
-.p{
-  
-}
-
-input{
     display: block;
+    margin: center;
+    width: 200px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    border-color: #707070;
+    margin-bottom: 10px;
+}
+select{
+    display: block;
+    width: 200px;
+    height: 20px;
     margin: center;
     border: 1px solid #ccc;
     border-radius: 10px;
     border-color: #707070;
+}
+
+.button{
+  width: 90px;
+  height: 30px;
+  font-weight: bold;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 10px;
+  border-color: #0008FF;
+  background-color: #0008FF;
+  color: #fff;
+}
+
+.noacc{
+  font-size: 12px;
+  color: #0008FF;
+  margin-top: 0px;
+  text-align: right;
+  font-weight: bold;
+  margin-bottom: 0px;
 }

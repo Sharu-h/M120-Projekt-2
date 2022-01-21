@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absenzen melden</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  
+    <table class="table">
+      <tr>
+        <th><img class="img" src="bilder/clock+icon.png"></th>
+      </tr>
+<tr>
+  <th><h1 class="h2">Schräg & Partner</h1></th>
+</tr>
+<tr>
+  <th><h1 class="h1">Zeitverwaltung</h1></th>
+</tr>
+      </table>
+      
+      <table class ="table">
+        <tr>
+          <td><h3>Login</h3></td>
+        </tr>
+        <tr>
+          <td><label class="label" for="benutzername">Benutzername:</label></td>
+        </tr>
+        <tr>
+          <td><input type="text" id="benutzername" name="benutzername" required></td>
+        </tr>
+        
+
+        <tr>
+          <td><label for="passwort">Passwort:</label></td>
+        </tr>
+        <tr>
+          <td><input type="text" id="passwort" name="passwort" required></td>
+        </tr>
+        <tr>
+          <td><p class="noacc">Noch kein Account?</p></td>
+        </tr>
+          <td>
+            <button class="button" id="button" type="submit" >Bestätigen</button>
+          </td>
+      </table>
+
+      <script>
+        document.getElementById("button").addEventListener("click", nextPage);
+        function nextPage() {
+          window.location.href="/startseite.html";
+        }
+       </script>
+
+  </body>
+</html>

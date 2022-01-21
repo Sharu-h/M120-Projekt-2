@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absenzen melden</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <table class="table">
+<tr>
+  <th><h1 class="title">Absenz melden</h1></th>
+</tr>
+      </table>  
+       
+      <table class ="table">
+        <tr>
+          <td><label class="label" for="datum">Datum:</label></td>
+        </tr>
+        <tr>
+          <td><input type="date" id="datum" name="Datum" required></td>
+        </tr>
+        <tr>
+          <td><label for="uhrzeit">Uhrzeit:</label></td>
+        </tr>
+        <tr>
+          <td><input type="time" id="uhrzeit" name="uhrzeit" required></td>
+        </tr>
+        <tr>
+        <td><label for="anzahl_stunden">Anzahl Stunden:</label></td>
+        </tr>
+        <tr>
+          <td><input type="time" id="anzahl_stunden" name="anzahl_stunden" required></td>
+        </tr>
+        <tr>
+          <td><label for="grund">Grund: </label>
+            <br>
+            <select name="reason" required>
+              <option>Krankheit</option>
+              <option>Verletzung</option>
+              <option>Verspätung</option>
+              <option>Schwangerschaft</option>
+              <option>Urlaub</option>
+              <option>Sonstiges</option>
+            </select>
+          </td>
+          </tr>
+          <td>
+            <button class="button" type="submit" onclick="alert('Absenz wurde eingetragen')">Bestätigen</button>
+          </td>
+      </table>
+
+  </body>
+</html>
